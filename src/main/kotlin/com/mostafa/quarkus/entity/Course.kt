@@ -10,7 +10,7 @@ import javax.persistence.Table
 @Table(name = "tb_courses")
 class Course() {
     constructor(id: Long, name: String, unit: Int) : this(name, unit) {
-        this.id
+        this.id = id
     }
 
     constructor(name: String, unit: Int) : this() {

@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.quarkus:quarkus-container-image-docker'
     implementation 'io.quarkus:quarkus-reactive-mysql-client'
     implementation 'io.quarkus:quarkus-resteasy-mutiny'
     implementation 'io.quarkus:quarkus-jdbc-mariadb'
