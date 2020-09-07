@@ -1,4 +1,14 @@
-# quarkus-kotlin-metrics-panache-mariadb-graphql-reactive-testcontainer-mockito
+# Quarkus Project
+## Project Tech Stack
+* quarkus
+* kotlin
+* metrics
+* panache
+* mariadb
+* graphql
+* reactive
+* testcontainer
+* mockito
 ## Prerequisite
 - Docker
     - Mardiadb container is only required for Dev environment. Following commands will create the container 
